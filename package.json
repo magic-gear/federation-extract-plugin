@@ -6,7 +6,7 @@
   "main": "dist/cjs.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com/magic-gear/federation-extract-plugin.git"
+    "url": "https://github.com/magic-gear/federation-extract-plugin.git"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production babel src -d dist --copy-files",
