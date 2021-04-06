@@ -1,0 +1,43 @@
+{
+  "name": "@magic-gear/federation-extract-plugin",
+  "version": "0.1.0",
+  "description": "A webpack plugin for extract related files according to your ModuleFederationPlugin",
+  "license": "MIT",
+  "main": "dist/cjs.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/magic-gear/federation-extract-plugin.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src -d dist --copy-files",
+    "format": "prettier --write .",
+    "release": "standard-version"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "webpack": "^5.1.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1",
+    "standard-version": "^9.1.1",
+    "webpack": "^5.16.0"
+  },
+  "keywords": [
+    "webpack"
+  ]
+}
